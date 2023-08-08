@@ -3,8 +3,8 @@
 :root {
     --color-body: #ffffff;
     --color-heading: #d9ddc6;
-    --color-base: #38bdce;
-    --color-base2: #037e91;
+    --color-base: #337780;
+    --color-base2: #023840;
     --color-brand: #ebf688ec;
     --color-brand2: #deff58;
     --sidbar-width: 240px;
@@ -94,7 +94,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(104, 166, 174, 0.9), rgba(19, 182, 204, 0.9)), url(../images/sidebar-img.jpg);
+        background: linear-gradient(rgba(104, 166, 174, 0.9), #337780), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }
